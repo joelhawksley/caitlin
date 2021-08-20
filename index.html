@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Caitlin Hawksley | Recipe Editor</title>
+    <meta name="description" content="Caitlin Hawksley is a recipe editor based in Louisville, Colorado.">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <meta content="Caitlin Hawksley" name="author">
+    <meta content="width=device-width,minimum-scale=1" name=viewport>
+    <meta content="caitlinhawksley.com" property="og:site_name">
+    <meta content="caitlin@hawksley.org" property="og:email">
+    <style>
+      body {
+        margin: 0 auto;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+        line-height: 1.6;
+        font-size: 1rem;
+        font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir,helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
+        max-width: 34rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+
+      .heading {
+        line-height: 1;
+      }
+
+      .footer {
+        font-size: .8rem;
+        line-height: 1.5;
+      }
+
+      @media screen and (max-width: 599px) {
+        .wrapper {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          justify-content: center;
+          width: 210px;
+          margin: 40px auto;
+        }
+
+        h1 {
+          font-size: 1.5rem;
+        }
+
+        img {
+          width: 200px;
+          order: 3;
+        }
+
+        .content {
+          order: 2;
+        }
+
+        .footer {
+          margin: .5rem 0 1rem;
+        }
+      }
+
+      @media screen and (min-width: 600px) {
+        .wrapper {
+          display: flex;
+          margin-top: 40px;
+          padding: 20px;
+        }
+
+        img {
+          width: 125px
+        }
+
+        .content {
+          margin-left: 20px;
+          padding-left: 20px;
+          border-left: 1px solid  #ddd;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <img src="caitlin.jpg" alt="Caitlin Hawksley holding a cocktail drink at Safta in Denver, Colorado." />
+      <div class="content">
+        <div class="heading">
+          <h1 style="line-height: 1; margin: 0; font-family: Constantia, 'Lucida Bright', Lucidabright, 'Lucida Serif', Lucida, 'DejaVu Serif', 'Bitstream Vera Serif', 'Liberation Serif', Georgia, serif;">Caitlin Hawksley</h1>
+          <span style="text-transform: uppercase; font-size: .8rem; letter-spacing: 2px;">Recipe Editor</span>
+        </div>
+        <div class="footer">
+          <div>Email: <a href="mailto:caitlin@hawksley.org">caitlin@hawksley.org</a></div>
+          <div>Instagram: <a href="https://instagram.com/caithawksley">@caithawksley</a></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
